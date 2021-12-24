@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8"/>
+<head>
+    <title>Ninja Som 2022</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body onLoad="main()">
+    <article class="modal_bg" id="modal_bg">
+        <article class="quadro_modal">
+            <article class="faixa_close"><img src="img/close.png" onclick="fechaModal()"></article>
+            <article class="quadro_foto"><img id="fotomodal"></article>
+            <article class="info_produto">
+                <article class="tituloProd_modal" id="tituloProd_modal"></article>
+                <article class="valorProd_modal" id="valorProd_modal"></article>
+                <article class="descProd_modal" id="descProd_modal"></article>
+                <article class="maisinfo_modal"> Veja mais detalhes do produto ></article>
+                <article class="corte"></article>
+                <article class="btcarrinho_modal">Adicionar ao carrinho</article>
+            </article>
+        </article>
+
+    </article>  
+
+<header>
+ <section class="bar">
+     <article class="container">
+        <article class="bt_1">
+            <article class="bt_1_icon">
+                <img src="img/cadeado.png">
+            </article>
+            <article class="bt_1_frase">
+                COMPRA 100%
+            </article>
+        </article>
+        <article class="divisor"></article>
+
+        <article class="bt_2">
+            <article class="bt_2_icon">
+            </article>
+            <article class="bt_2_frase">
+                1 TROCA GRÁTIS
+            </article>
+        </article>
+        <article class="divisor"></article>
+
+        <article class="bt_3">
+            <article class="bt_3_icon">
+               <img src="img/porcentagem.png">
+            </article>
+            <article class="bt_3_frase">
+                5X SEM JUROS
+            </article>
+        </article>
+        <article class="divisor"></article>
+
+        <article class="bt_4">
+            <article class="bt_4_icon">
+               <img src="img/caminhao.png">
+            </article>
+            <article class="bt_4_frase">
+                ENTREGAS EM TODO O BRASIL
+            </article>
+        </article>
+
+     </article><!-- container -->
+ </section>   
+
+<article class="header_menus">
+    <article class="container">
+        <article class="logo"><img src="img/logo.png"></article>
+    <article class="busca">
+        <input type="search" placeholder="BUSQUE AQUI..." class="input_busca">
+        <input type="image" src="img/busca.svg" alt="Submit" class="bt_busca">
+    </article>
+    <article class="contato_whats">
+        <article class="icon_whats"><img src="img/whats.png"></article>
+        <article class="num_whats">(11) 99999-9999</article>
+    </article>
+    <article class="hello">
+        <article class="icon_guest">
+            <img src="img/visitante.png">
+        </article>
+        <article class="boas">
+            <article class="visitantes">OLÁ, VISITANTE</article>
+            <article class="minha_conta">MINHA CONTA</article>
+        </article>
+    </article>
+    <article class="carrinho">
+        <article class="estrutura">
+            <article class="bag"><img src="img/sacola.png"></article>
+            <article class="seu_carrinho">SEU CARRINHO</article>
+            <article class="qtde_carrinho">0 item (s)</article>
+        </article>
+    </article>
+
+</article><!-- container-->
+</article><!-- header menus -->
+<article class="navbar">
+    <article class="container">
+        <article class="menu_1">TODAS AS CATEGORIAS <img src="img/arrow_down.svg"></article>
+        <article class="menu_2">SOM PROFISSIONAL <img src="img/arrow_down.svg"></article>
+        <article class="menu_3">INSTRUMENTOS MUSICAIS</article>
+        <article class="menu_4">PROMOÇÕES</article>
+        <article class="menu_5">CONTATO</article>
+    </article>
+</article>
+
+
+</header>
+<section class="estrutura_slide">
+    <article class="arrow_left"><img src="img/left-arrow.png"></article>
+    <article class="container_banner">
+        <article class="frases_banner">
+            <article class="novos_produtos">
+                NOVOS PRODUTOS
+            </article>
+            <article class="instr">
+                INTRUMENTOS
+            </article>
+            <article class="profissionais">
+                PROFISSIONAIS
+            </article>
+            <article class="confira">
+                CONFIRA
+            </article>
+            <article class="risco"></article>
+        </article><!-- frases_banner -->
+        <article class="dots">
+            <article class="dots1"></article>
+            <article class="dots2"></article>
+            <article class="dots3"></article>
+            <article class="dots4"></article>
+        </article>
+    </article><!-- container -->
+    <article class="arrow_right"><img src="img/left-arrow.png"></article>
+</section>
+<section class="estrutura_objetos">
+<article class="container">
+<article class="box_itens">
+    <article class="imagem_item">
+        <img src="img/circulo_guitarra.png">
+    </article>
+    <article class="titulo_item">
+        GUITARRAS
+    </article>
+</article>
+
+<article class="box_itens">
+    <article class="imagem_item">
+        <img src="img/circulo_microfone.png">
+    </article>
+    <article class="titulo_item">
+        MICROFONES
+    </article>
+</article>
+
+<article class="box_itens">
+    <article class="imagem_item">
+        <img src="img/circulo_mesadesom.png">
+    </article>
+    <article class="titulo_item">
+        MESA DE SOM
+    </article>
+</article>
+
+<article class="box_itens">
+    <article class="imagem_item">
+        <img src="img/circulo_teclados.png">
+    </article>
+    <article class="titulo_item">
+        TECLADOS
+    </article>
+</article>
+
+<article class="box_itens">
+    <article class="imagem_item">
+        <img src="img/circulo_VIOLAO.png">
+    </article>
+    <article class="titulo_item">
+       VIOLÃO
+    </article>
+</article>
+
+<article class="box_itens">
+    <article class="imagem_item">
+        <img src="img/circulo_baterias.png">
+    </article>
+    <article class="titulo_item">
+       BATERIA
+    </article>
+</article>
+
+</article>    
+</section><!-- estrutura_objetos -->
+<section class="estrutura_minibaners">
+<article class="container">
+    <article class="box1">
+        <article class="box1_novidades">NOVIDADES</article>
+        <article class="box1_line"><article class="divisor_box1"></article></article>
+        <article class="box1_audio">ÁUDIO</article>
+        <article class="box1_profissional">PROFISSIONAL</article>
+        <article class="box_btconfira"><article class="bt_confira">CONFIRA</article></article>
+    </article>
+
+    <article class="box2">
+        <article class="box1_novidades">NOVIDADES</article>
+        <article class="box1_line"><article class="divisor_box1"></article></article>
+        <article class="box1_audio">INSTRUMENTOS</article>
+        <article class="box1_profissional">MUSICAIS</article>
+        <article class="box_btconfira"><article class="bt_confira">CONFIRA</article></article>
+    </article>
+</article>
+</section><!-- estrutura_minibaners-->
+<section class="instrumentos_destaques">
+<article class="title_instrumentos_destaques">
+    <article class="instrumentos">INSTRUMENTOS</article>
+    <article class="destaques">DESTAQUES</article>
+</article>
+<article class="frase_instr_destaques">it is a long established fact that a reader will be destracted by the readable</article>
+
+<article class="grid-produtos">
+    <article class="container">
+        <article class="grid_externo" id="grid_externo">
+
+            <article class="card" onclick="modal(0)">
+                <article class="photo"><img id="photo0" src=""></article>
+                <article class="view"></article>
+                <article class="quick"><article class="circle_view"><img src="img/search_circle.png"></article><article class="text_quick">Quick view</article></article>
+                <article class="tituloProduto" id="tituloProduto0"></article>
+                <article class="descProduto" id="descProduto0"></article>    
+                <article class="valorProd" id="valorProd0"></article>
+            </article>
+
+            <article class="card" onclick="modal(1)">
+                <article class="photo"><img id="photo1" src=""></article>
+                <article class="view"></article>
+                <article class="quick"><article class="circle_view"><img src="img/search_circle.png"></article><article class="text_quick">Quick view</article></article>
+                <article class="tituloProduto" id="tituloProduto1"></article>
+                <article class="descProduto" id="descProduto1"></article>    
+                <article class="valorProd" id="valorProd1"></article>
+            </article>
+
+            <article class="card" onclick="modal(2)">
+                <article class="photo"><img id="photo2" src=""></article>
+                <article class="view"></article>
+                <article class="quick"><article class="circle_view"><img src="img/search_circle.png"></article><article class="text_quick">Quick view</article></article>                
+                <article class="tituloProduto" id="tituloProduto2"></article>
+                <article class="descProduto" id="descProduto2"></article>    
+                <article class="valorProd" id="valorProd2"></article>
+            </article>    
+      
+            <article class="card" onclick="modal(3)">
+                <article class="photo"><img id="photo3" src=""></article>
+                <article class="view"></article>
+                <article class="quick"><article class="circle_view"><img src="img/search_circle.png"></article><article class="text_quick">Quick view</article></article>
+                <article class="tituloProduto" id="tituloProduto3"></article>
+                <article class="descProduto" id="descProduto3"></article>    
+                <article class="valorProd" id="valorProd3"></article>
+            </article>      
+            
+            <article class="card" onclick="modal(4)">
+                <article class="photo"><img id="photo4" src=""></article>
+                <article class="view"></article>
+                <article class="quick"><article class="circle_view"><img src="img/search_circle.png"></article><article class="text_quick">Quick view</article></article>                
+                <article class="tituloProduto" id="tituloProduto4"></article>
+                <article class="descProduto" id="descProduto4"></article>    
+                <article class="valorProd" id="valorProd4"></article>
+            </article>  
+            
+            <article class="card" onclick="modal(5)">
+                <article class="photo"><img id="photo5" src=""></article>
+                <article class="view"></article>
+                <article class="quick"><article class="circle_view"><img src="img/search_circle.png"></article><article class="text_quick">Quick view</article></article>
+                <article class="tituloProduto" id="tituloProduto5"></article>
+                <article class="descProduto" id="descProduto5"></article>    
+                <article class="valorProd" id="valorProd5"></article>
+            </article>  
+
+
+            <article class="card" onclick="modal(6)">
+                <article class="photo"><img id="photo6" src=""></article>
+                <article class="view"></article>
+                <article class="quick"><article class="circle_view"><img src="img/search_circle.png"></article><article class="text_quick">Quick view</article></article>
+                <article class="tituloProduto" id="tituloProduto6"></article>
+                <article class="descProduto" id="descProduto6"></article>    
+                <article class="valorProd" id="valorProd6"></article>
+            </article>  
+
+            <article class="card" onclick="modal(7)">
+                <article class="photo"><img id="photo7" src=""></article>
+                <article class="view"></article>
+                <article class="quick"><article class="circle_view"><img src="img/search_circle.png"></article><article class="text_quick">Quick view</article></article>                
+                <article class="tituloProduto" id="tituloProduto7"></article>
+                <article class="descProduto" id="descProduto7"></article>    
+                <article class="valorProd" id="valorProd7"></article>
+            </article>  
+
+
+        </article>
+
+
+
+
+
+
+    </article><!-- container-->
+
+</article>
+    <article class="vermais">
+            <article class="container">
+                <article class="bt_vermais">VER MAIS</article>
+            </article>
+    </article>
+</section>
+
+<section class="best">
+    <article class="melhoresmarcas">AS <b>MELHORES</b> MARCAS</article>
+    <article class="subfrase">it is a long established fact that a reader will be destracted by the readable</article>
+</section>
+
+<section class="marcas">
+    <article class="container">
+        <article class="grid_marcas"><img src="img/marca1.png"></article>
+        <article class="grid_marcas"><img src="img/marca2.png"></article>
+        <article class="grid_marcas"><img src="img/marca3.png"></article>
+        <article class="grid_marcas"><img src="img/marca4.png"></article>
+
+    </article>
+</section>
+<section class="sobrenos">
+    <article class="container">
+        <article class="arrows">
+            <article class="arrow_left"><img src="img/arrow.png"></article>
+            <article class="arrow_right"><img src="img/arrow.png"></article>
+        </article>
+    </article>
+</section>
+
+<section class="titulo_sobrenos">
+    <article class="container">
+        <article class="text_titulo">SOBRE NÓS</article>
+        <article class="text_descricao">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. </article>
+    </article>
+</section>
+
+<section class="sobreodesign">
+    <article class="container">
+        <article class="bg_desig">
+            <article class="arrow_design"><img src="img/arrow_design.png"></article>    
+            <article class="foto_design"><img src="img/design.png"></article> 
+            <article class="nome_design">
+                <article class="name">Felipe Salmim</article>
+                <article class="vocation">Designer</article>
+            </article> 
+            <article class="comentario_design">
+                <article class="balao">
+                    <article class="frasedodesign">
+                        Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’
+                    </article>
+                </article>
+            </article> 
+            <article class="arrow_design2"><img src="img/arrow_design.png"></article> 
+
+        </article>
+    </article>
+</section><!-- sobreodesign -->
+
+<footer>
+<article class="container">
+    <article class="grid_footer">
+        <article class="grid1">
+            <article class="titulo_footer">INSTITUCIONAL</article>
+            <article class="links_footer">
+                <a href="#">QUEM SOMOS</a>
+                <a href="#">NOSSAS LOJAS</a>
+            </article>
+            <article class="titulo_footer">ATENDIMENTO</article>
+            <article class="links_footer">
+                <a href="#">FALE CONOSCO</a>
+                <a href="#">VENDAS@NINJASOM.COM.BR</a>
+            </article> 
+        </article>
+        <article class="grid2">
+            <article class="titulo_footer">AJUDA E SUPORTE</article>
+            <article class="links_footer">
+                <a href="#">POLÍTICA DE PRIVACIDADE</a>
+                <a href="#">POLÍTICA DE TROCAS</a>
+                <a href="#">PRAZOS DE ENTREGA</a>
+                <a href="#">TERMOS DE USO</a>
+            </article> 
+        </article>
+        <article class="grid3">
+            <article class="titulo_footer">FORMAS DE PAGAMENTO</article>
+        <article class="grid_bandeiras">
+            <img src="img/visa.png">
+            <img src="img/mastercard.png">
+            <img src="img/american.svg">
+            <img src="img/card4.png">
+            <img src="img/card5.png">            
+        </article>
+        <article class="titulo_footer">SEGURANCA</article>
+        <article class="grid_bandeiras2">
+            <img src="img/certificado1.png" class="cert1">
+            <img src="img/certificado2.png" class="cert2">
+        </article>
+        </article><!-- grid 3-->
+        <article class="grid4">
+            <article class="quadro_contatoFooter">
+                <article class="newsL">
+                    ASSINE NOSSO <b>NEWSLETTER</b>
+                    E RECEBA NOVIDADES E PROMOCÕES    
+                </article>
+                <article class="inputs_newsL">
+                    <input type="text" class="input_new" placeholder="SEU NOME">
+                    <input type="text" class="input_new" placeholder="SEU E-MAIL">
+                    <input type="button" alt="submit" class="btenviar" value="ENVIAR">
+                </article>
+            </article>
+
+        </article>
+    </article><!-- grid footer -->
+
+</article>
+</footer>
+<article class="columns_ender">
+    <article class="container">
+        <article class="endereco">
+            NINJA SOM COMÉRCIO DE ELETRÔNICOS LTDA - 2012 - 2019, todos os direitos reservados. Rua Santa Ifigênia, 556 560/562/564 - Santa Efigênia - CEP: 01.207-000 - São Paulo / SP - CNPJ 07.282.516/0001-15
+        </article>
+        <article class="plataformas">
+            <img src="img/econverse.png" class="futuro" title="Obrigado pela oportunidade!">
+            <img src="img/vtex.png" class="vtex">
+        </article>
+    </article>        
+</article>
+
+
+
+
+</body>
+</html>
